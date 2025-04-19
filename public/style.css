@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(6, 205, 139) !important;
+}
+.stack{
+    background-color: black;
+display: flex;
+
+    
+}
+.stack button{
+    margin: 0rem 5rem 2rem 5rem ;
+}
+.stack section{
+margin-left: 5rem;
+margin-top: 3rem;
+width: 100vh;
+
+}
+
+.stack2{
+    display: flex;
+ justify-content: center;
+    margin-top: 3rem;
+  
+    background-color: black;
+ 
+
+
+    margin-bottom: 3rem;
+}
+.stack2 div{
+    margin: 3rem 9rem 2rem 0rem ;
+content: wrap;
+}
+.stack3{
+    display: flex;
+ 
+    justify-content: space-around;
+    background-color: black;
+}
+.stack3 div{
+    margin-left: 6rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.stack0{
+    background-color:black;
+    display: flex;
+    justify-content: center;
+  content: wrap;
+    margin-bottom: 3rem;
+  
+}
+.stack0 div{
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+@media (max-width:400) {
+.stack3{
+    flex-wrap: wrap;
+}
+   .stack3 ::selection{
+    flex-wrap: wrap;
+    display: block;
+   } 
+   .stack2{
+    flex-direction: column;
+   }
+}

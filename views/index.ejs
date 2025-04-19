@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=viewport, initial-scale=1.0">
+    <title>Stock Market</title>
+    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"> 
+   <link rel="stylesheet" href="style.css">
+</head>
+
+    <body>
+      
+     
+        <nav id="ticker-tape">
+            <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+    <div class="tradingview-widget-container__widget"></div>
+    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"></a></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+    {
+    "symbols"= [
+      {
+        "proName": "FOREXCOM:SPXUSD",
+        "title": "S&P 500 Index"
+      },
+      {
+        "proName": "FOREXCOM:NSXUSD",
+        "title": "US 100 Cash CFD"
+      },
+      {
+        "proName": "FX_IDC:EURUSD",
+        "title": "EUR to USD"
+      },
+      {
+        "proName": "BITSTAMP:BTCUSD",
+        "title": "Bitcoin"
+      },
+      {
+        "proName": "BITSTAMP:ETHUSD",
+        "title": "Ethereum"
+      }
+    ],
+    "showSymbolLogo"= true,
+    "isTransparent"= false,
+    "displayMode"= "adaptive",
+    "colorTheme"= "dark",
+    "locale"= "en"
+  }
+    </script>
+  </div>
+  <!-- TradingView Widget END -->
+        </nav>
+        
+        <main>
+          <div class="stack0">
+      
+        <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <h1 style="color: wheat;">Forex Cross Rates</h1>
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"></a></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-forex-heat-map.js" async>
+  {
+  "width"= "100%",
+  "height"= "100%",
+  "currencies"= [
+    "EUR",
+    "USD",
+    "JPY",
+    "GBP",
+    "CHF",
+    "AUD",
+    "CAD",
+    "NZD",
+    "CNY",
+    "TRY",
+    "SEK",
+    "NOK"
+  ],
+  "isTransparent"= false,
+  "colorTheme"= "dark",
+  "locale"= "en",
+  "backgroundColor"= "#1D222D"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
+          </div>
+          <div class="stack">
+            <section id="symbol-info">
+               <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container" style="width: 1rem !important;">
+    <div class="tradingview-widget-container__widget"></div>
+    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"></a></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-info.js" async>
+    {
+    "symbol"= "NASDAQ:AAPL",
+  "width" = 100,
+    "locale"= "en",
+    "colorTheme"= "dark",
+    "isTransparent"= false
+  }
+    </script>
+  </div>
+  <!-- TradingView Widget END -->
+  <a href="/advance">  <button type="button" class="btn btn-success">Go to Advanced Chart</button></a>
+            </section>
+       
+
+          </div>
+        <div class="stack2">
+            <section id="company-profile">
+                <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+    <div class="tradingview-widget-container__widget"></div>
+    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"></a></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-profile.js" async>
+    {
+    "width"= 5000,
+    "height"= 550,
+    "isTransparent"= false,
+    "colorTheme"= "dark",
+    "symbol"= "NASDAQ:AAPL",
+    "locale"= "en"
+  }
+    </script>
+  </div>
+  <!-- TradingView Widget END -->
+            </section>
+            <section id="technical-analysis">
+              <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"></a></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-technical-analysis.js" async>
+  {
+  "interval"= "1m",
+  "width"= 425,
+  "isTransparent"= false,
+  "height"= 450,
+  "symbol"= "NASDAQ:AAPL",
+  "showIntervalTabs"= true,
+  "displayMode"= "single",
+  "locale"= "en",
+  "colorTheme"= "dark"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
+          </section>
+        </div>
+        <div class="stack3">
+      
+            <section id="top-stories">
+                <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container" style="height: 500px !important">
+    <div class="tradingview-widget-container__widget"></div>
+    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"></a></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-timeline.js" async>
+    {
+    "feedMode"= "all_symbols",
+    "isTransparent"= false,
+    "displayMode"= "regular",
+    "width"= 800,
+    "height"= 550,
+    "colorTheme"= "dark",
+    "locale"= "en"
+  }
+    </script>
+  </div>
+  <!-- TradingView Widget END -->
+            </section>
+            <section id="fundamental-data">
+              <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"></a></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-financials.js" async>
+  {
+  "isTransparent"= false,
+  "largeChartUrl"= "",
+  "displayMode"= "regular",
+  "width"= 400,
+
+  "colorTheme"= "dark",
+  "symbol"="NASDAQ:AAPL",
+  "locale"= "en"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
+          </section>
+            <section id="powered-by-tv">
+            </section>
+       
+        
+        </div>
+      </main>
+    </body>
+    
+
+</html>
